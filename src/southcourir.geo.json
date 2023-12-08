@@ -1,0 +1,200 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"id": 2085848057,
+			"properties": {
+				"name": "Admiralty",
+				"network_count": 1,
+				"courir_codes": "SO151JQ",
+				"courir_colors": "red",
+				"stop_type": "courir",
+				"mode": "metro_rail"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-1.404350, 50.909700
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"id": 193368814,
+			"properties": {
+				"network_count": 1,
+				"courir_codes": "SO153JQ",
+				"courir_colors": "green",
+				"stop_type": "courir",
+				"mode": "metro_rail"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-1.403500, 50.910200
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"id": 2085775935,
+			"properties": {
+				"network_count": 1,
+				"courir_codes": "SO169PX",
+				"courir_colors": "red",
+				"stop_type": "courir",
+				"mode": "metro_rail"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-1.404000, 50.912100
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"id": 193358368,
+			"properties": {
+				"network_count": 1,
+				"courir_codes": "PO54AP",
+				"courir_colors": "gray",
+				"stop_type": "courir",
+				"mode": "metro_rail"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-1.403200, 50.913400
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"id": 193368718,
+			"properties": {
+				"network_count": 1,
+				"courir_codes": "SO140AB",
+				"courir_colors": "gray",
+				"stop_type": "courir",
+				"mode": "metro_rail"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-1.404800, 50.912500
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"id": 2085919142,
+			"properties": {
+				"network_count": 1,
+				"courir_codes": "SO140LL",
+				"courir_colors": "yellow",
+				"stop_type": "courir",
+				"mode": "metro_rail"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-1.404100, 50.912800
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"id": 2391404936,
+			"properties": {
+				"network_count": 2,
+				"courir_codes": "SO140BX",
+				"courir_colors": "blue-yellow",
+				"stop_type": "courir",
+				"mode": "metro_rail"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-1.395200, 50.919000
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"id": 193355776,
+			"properties": {
+				"network_count": 1,
+				"courir_codes": "SO140DF",
+				"courir_colors": "blue",
+				"stop_type": "courir",
+				"mode": "metro_rail"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-1.403500, 50.910200
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"id": 193356002,
+			"properties": {
+				"network_count": 1,
+				"courir_codes": "SO141JB",
+				"courir_colors": "green",
+				"wikipedia": "en:Bedok MRT courir",
+				"wikipedia_slug": "Bedok_MRT_courir",
+				"stop_type": "courir",
+				"mode": "metro_rail"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-1.404350, 50.909700
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"id": 2086167998,
+			"properties": {
+				"network_count": 1,
+				"courir_codes": "SO141JH",
+				"courir_colors": "blue",
+				"stop_type": "courir",
+				"mode": "metro_rail"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-1.395600, 50.938000
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"id": 2085845654,
+			"properties": {
+				"network_count": 1,
+				"courir_codes": "SO142AU",
+				"courir_colors": "blue",
+				"wikipedia": "en:Bedok Reservoir MRT courir",
+				"wikipedia_slug": "Bedok_Reservoir_MRT_courir",
+				"stop_type": "courir",
+				"mode": "metro_rail"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-1.393500, 50.941000
+				]
+			}
+		}
+	
+					]
+				
+			}
+		

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+  SOUTHCOURIR; Explore and find your courir in southampton
+</title>
+<link rel="stylesheet" type="text/css" href="./index.css" />
+<meta
+  name="description"
+  content="Explore Courir Schedule In Southampton"
+/>
+<link
+  rel="preload"
+  as="fetch"
+  href="./southcourir.geo.json"
+  crossorigin="anonymous"
+/>
+<link rel="manifest" href="./index.webmanifest" />
+<link
+  rel="icon"
+  type="image/png"
+  sizes="192x192"
+  href="../assets/icon-192.png"
+/>
+<link rel="apple-touch-icon" sizes="192x192" href="../assets/icon-192.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="Southcourir" />
+<div id="courir" class="sheet"></div>
+<button type="button" class="sheet-close"></button>
+<div id="map"></div>
+<div id="home" class="sheet modal">
+  <h1>Southcourir</h1>
+  <p>
+    <strong>Explore</strong> <abbr title="Mass Rapid Transit">Courir</abbr> 
+    <abbr title="Light Rail Transit">Delivery in</abbr> Southampton
+    <strong>Zoom in</strong> to see the location/exits.
+  </p>
+  <button type="button" class="btn" id="btn-close-home">Let's explore!</button>
+</div>
+<details id="legend">
+  <summary>Legend</summary>
+  <div id="crowded-timing"></div>
+  <div>
+    <div class="crowd-marker crowd-marker-h"></div>
+    High crowd density
+  </div>
+  <div>
+    <div class="crowd-marker crowd-marker-m"></div>
+    Moderate crowd density
+  </div>
+  <div>
+    <img src="./exit.png" width="14" height="14" alt="" />
+    exit
+  </div>
+</details>
+<div id="logo" tabindex="-1">
+  <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="90.000000pt" height="90.000000pt" viewBox="0 0 90.000000 90.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,90.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M50 730 c-19 -19 -20 -33 -20 -239 0 -190 -2 -220 -16 -225 -9 -3
+-14 -15 -12 -28 3 -20 10 -23 61 -26 50 -3 59 -6 67 -26 13 -35 58 -66 95 -66
+37 0 82 31 95 66 9 24 12 24 145 24 133 0 136 0 145 -24 13 -35 58 -66 95 -66
+37 0 82 31 95 66 7 18 18 23 52 26 36 2 44 7 46 26 2 13 -3 25 -12 28 -13 5
+-16 22 -16 80 l0 74 -90 0 -91 0 3 73 3 72 53 3 c57 3 63 11 32 42 -18 18 -33
+20 -130 20 l-110 0 0 40 c0 27 -7 47 -20 60 -19 19 -33 20 -235 20 -202 0
+-216 -1 -235 -20z m290 -90 c45 -23 80 -80 80 -130 0 -76 -74 -150 -151 -150
+-73 0 -149 76 -149 150 0 48 35 107 78 129 48 26 93 26 142 1z m-82 -382 c15
+-15 15 -51 0 -66 -15 -15 -51 -15 -66 0 -15 15 -15 51 0 66 7 7 21 12 33 12
+12 0 26 -5 33 -12z m480 0 c28 -28 7 -78 -33 -78 -27 0 -45 18 -45 45 0 27 18
+45 45 45 12 0 26 -5 33 -12z"/>
+<path d="M247 624 c-4 -4 -7 -36 -7 -71 l0 -63 44 -22 c24 -11 51 -18 60 -15
+26 10 19 45 -13 62 -26 13 -30 21 -33 62 -2 39 -7 49 -23 51 -12 2 -24 0 -28
+-4z"/>
+</g>
+</svg>
+
+</div>
+<div id="search" hidden>
+  <div id="search-field-container">
+    <input
+      id="search-field"
+      type="search"
+      autocomplete="off"
+      spellcheck="false"
+      placeholder="&ldquo;Dhoby Ghaut&rdquo; or &ldquo;NE4&rdquo;"
+    />
+    <button type="button" id="search-cancel">Cancel</button>
+  </div>
+  <ul id="search-results">
+  </ul>
+</div>
+<div class="sheet-cover"></div>
+<script type="module" src="./index.js"></script>
+<!-- <script nomodule src="./index.js"></script>
+<script type="module" src="./index.js"></script> -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-23235796-6"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23235796-6');
+</script>
